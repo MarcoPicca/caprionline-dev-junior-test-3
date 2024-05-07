@@ -1,0 +1,6 @@
+{
+    "require": {
+        "symfony/security-bundle": "^6.4",
+        "nelmio/cors-bundle": "^2.4"
+    }
+}

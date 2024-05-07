@@ -8,7 +8,7 @@ const App = props => {
   const fetchMovies = () => {
     setLoading(true);
 
-    return fetch('http://localhost:8000/movies')
+    return fetch('http://127.0.0.1:8000/movies')
       .then(response => response.json())
       .then(data => {
         setMovies(data);
